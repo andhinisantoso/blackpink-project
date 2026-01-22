@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="icon" href="img/gojo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        .bp-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .bp-card:hover {
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .carousel img {
+            height: 250px;
+            object-fit: cover;
+        }
+        .video-section {
+            height: 70vh;         
+            overflow: hidden;
+        }
+
+        .bp-video {
+        height: 100%;
+        object-fit: cover;     
+        }
+
+        .jumbotron-pink {
+        background-color: #ffc0cb; 
+        color: #000;              
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://blackpinkofficial.store/?srsltid=AfmBOoqbkJqrLCXi7f_MVq2-X8qP_MxqpFySmYhRIvi50oZztKxTkeVT">Blackpink in Your Area</a>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Jumbotron -->
+    <section class="jumbotron-pink text-black text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">DEADLINE WORLD TOUR</h1>
+            <p class="lead">
+            More Than Music, It’s a Legacy in the Making
+            </p>
+        </div>
+    </section>
+    <!-- End Jumbotron -->
+     <section class="video-section">
+        <video autoplay
+                muted
+                loop
+                playsinline
+                class="w-100 bp-video">
+                <source src="https://blackpinkofficial.store/cdn/shop/videos/c/vp/3270628d86a745e8a0a3d0624070d22d/3270628d86a745e8a0a3d0624070d22d.HD-1080p-7.2Mbps-50393992.mp4?v=0" type="video/mp4">
+            </video>
+     </section>
+
+    <!-- Start Container -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Members of Blackpink</h2>
+            <p class="text-center text-muted mb-5">
+            These are the four members
+            </p>
+            <div class="row g-4">
+                <!-- Jisoo -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bp-card h-100">
+                    <div id="jisooCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/jisoo.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/jisoo2.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/jisoo4.jpg" class="d-block w-100" alt="">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Jisoo</h5>
+                        <p class="card-text">
+                        The Visual Queen
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Jennie -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bp-card h-100">
+                    <div id="jennieCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/jennie.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/jennie2.webp" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/jennie3.jpg" class="d-block w-100">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Jennie</h5>
+                        <p class="card-text">
+                        The Human Chanel
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Rose -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bp-card h-100">
+                    <div id="roseCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/rose.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/rose2.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/rose1.jpg" class="d-block w-100">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Rosé</h5>
+                        <p class="card-text">
+                        The Golden Voice
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Lisa -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bp-card h-100">
+                    <div id="lisaCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/WebProject/assets/lisa.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/WebProject/assets/lisa3.webp" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/WebProject/assets/lisa2.webp" class="d-block w-100">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Lisa</h5>
+                        <p class="card-text">
+                        The Thai Goddess
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Container -->
+    
+    <!-- Start Form -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 border p-4 rounded bg-white shadow-sm">
+                    <h3 class="text-center mb-4">Pre-Order Tour Ticket</h3>
+                    <form id="orderForm">
+                        <div class="mb-3">
+                            <label for="userName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="userName" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ticketType" class="form-label">Ticket Category</label>
+                            <select class="form-select" id="ticketType">
+                                <option value="VIP Pink">VIP Pink (Soundcheck)</option>
+                                <option value="Platinum">Platinum</option>
+                                <option value="CAT 1">CAT 1</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100" style="background-color: #f4a4b1; border: none; color: black; font-weight: bold;">
+                            Submit Pre-Order
+                        </button>
+                    </form>
+
+                    <div id="successMessage" class="mt-4" style="display: none;">
+                        <div class="alert alert-success text-center">
+                            <span id="displayName" class="fw-bold"></span> has been pre-ordered the <span id="displayTicket" class="fw-bold"></span> ticket!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Form -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: black; color: palevioletred;">
+      © 2026 Blackpink Moments | Design with 🖤🩷 using Bootstrap
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+      
+    <script>
+        const orderForm = document.getElementById('orderForm');
+        const successMessage = document.getElementById('successMessage');
+        const displayName = document.getElementById('displayName');
+        const displayTicket = document.getElementById('displayTicket');
+
+        orderForm.addEventListener('submit', function(event) {
+            // Mencegah halaman refresh
+            event.preventDefault();
+
+            // Mengambil nilai dari input
+            const nameValue = document.getElementById('userName').value;
+            const ticketValue = document.getElementById('ticketType').value;
+
+            // Memasukkan nilai ke dalam elemen pesan
+            displayName.innerText = nameValue;
+            displayTicket.innerText = ticketValue;
+
+            // Menampilkan pesan sukses dan menyembunyikan form (opsional)
+            successMessage.style.display = 'block';
+            
+            // Reset form agar bisa diisi lagi
+            orderForm.reset();
+            
+            // Scroll otomatis ke arah pesan sukses agar user langsung lihat
+            successMessage.scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
